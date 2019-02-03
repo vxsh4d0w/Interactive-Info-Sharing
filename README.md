@@ -1,5 +1,5 @@
-# Interactive-Info-Sharing
-This is a fork of [Info-Sharing](https://github.com/CyberSaiyanIT/InfoSharing/tree/master/CONTRIB/PRODUCER/scripts) 
+# Interactive Info-Sharing App
+This is a fork of [InfoSharing](https://github.com/CyberSaiyanIT/InfoSharing/tree/master/CONTRIB/PRODUCER/scripts) 
 with an interactive menu to create, push and poll your IoC.
 
 
@@ -85,8 +85,10 @@ The option 2 and 3 allow to push your IoC according the taxonomy you prefer. Bot
 
 IMPORTANT: Modify both scripts changing the password used to authenticate the session
 
-The option 3 polls the Info-Sharing server to check if your IoC have been uploaded correctly. Wait for about 5 minutes before polling.
+The option 3 polls the InfoSharing server to check if your IoC have been uploaded correctly. Wait for about 5 minutes before polling.
 
+
+* [Poll](poll.sh) - Script to poll the InfoSharing web server to check if your IoC have been uploaded
 
 
 

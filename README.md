@@ -7,7 +7,7 @@ with an interactive menu to create, push and poll your IoC.
 
 These instructions will get you a copy of the project up and running on your local machine.
 
-### Prerequisites
+## Prerequisites
 
 At first you need to solve all dependencies:
 
@@ -36,6 +36,8 @@ sudo pip install validators
 
 ## Running the script
 
+
+### Run the script
 Once dowloaded this package you have just to run the script as showed here below:
 
 ```
@@ -55,6 +57,7 @@ Please choose the option you want to run:
 
 0. Quit
 ```
+### Insert the IoC
 
 The first option requires you to single out main details as title, description author and source file of your IoC. Here below what will be displayed:
 
@@ -77,7 +80,7 @@ The script will generate two new file that contain your IoC according Stix 1.2 a
 Writing STIX 1.2 package: package.stix
 Writing STIX 2 package: package.stix2
 ```
-
+### Push Stix packages
 The option 2 and 3 allow to push your IoC according the taxonomy you prefer. Both option will run a shell script:
 
 * [Stix 1.2](stix1.sh) - Script to push Ioc according Stix 1.2 Taxonomy
@@ -87,7 +90,7 @@ IMPORTANT: Modify both scripts changing the password used to authenticate the se
 
 The option 3 polls the InfoSharing server to check if your IoC have been uploaded correctly. Wait for about 5 minutes before polling.
 
-
+### Poll InfoSharing
 * [Poll](poll.sh) - Script to poll the InfoSharing web server to check if your IoC have been uploaded
 
 

@@ -1,4 +1,4 @@
-# Interactive Info-Sharing App
+# Interactive InfoSharing App
 This is a fork of [InfoSharing](https://github.com/CyberSaiyanIT/InfoSharing/tree/master/CONTRIB/PRODUCER/scripts) 
 with an interactive menu to create, push and poll your IoC.
 

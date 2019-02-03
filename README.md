@@ -32,7 +32,6 @@ sudo pip install stix2
 
 # validators
 sudo pip install validators
-
 ```
 
 ## Running the script
@@ -41,7 +40,6 @@ Once dowloaded this package you have just to run the script as showed here below
 
 ```
 sh# python infosharing.py
-
 ```
 
 An interactive menu will be displayed:
@@ -56,7 +54,6 @@ Please choose the option you want to run:
 4. Poll InfoSharing Server
 
 0. Quit
-
 ```
 
 The first option requires you to single out main details as title, description author and source file of your IoC. Here below what will be displayed:
@@ -64,15 +61,33 @@ The first option requires you to single out main details as title, description a
 ```
 Insert Title Ioc:Title Example
 Insert Decription:Test Script
-Insert User Identity:V
+Insert User Identity:usertest
 Add IoC Source File:../test.txt
+
 Stix File generation in progress....
 
 Writing STIX 1.2 package: package.stix
 Writing STIX 2 package: package.stix2
  >>  
- 
+
 ```
+
+The script will generate two new file that contain your IoC according Stix 1.2 and Stix 2 taxonomy
+```
+Writing STIX 1.2 package: package.stix
+Writing STIX 2 package: package.stix2
+```
+
+The option 2 and 3 allow to push your IoC according the taxonomy you prefer. Both option will run a shell script:
+
+* [Stix 1.2](stix1.sh) - Script to push Ioc according Stix 1.2 Taxonomy
+* [Stix 2](stix2.sh) - Script to push Ioc according Stix 1.2 Taxonomy
+
+IMPORTANT: Modify both scripts changing the password used to authenticate the session
+
+The option 3 polls the Info-Sharing server to check if your IoC have been uploaded correctly. Wait for about 5 minutes before polling.
+
+
 
 
 

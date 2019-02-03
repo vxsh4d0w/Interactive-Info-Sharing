@@ -1,5 +1,5 @@
 # Interactive-Info-Sharing
-This is a fork of [Info-Sharing] (https://github.com/CyberSaiyanIT/InfoSharing/tree/master/CONTRIB/PRODUCER/scripts) 
+This is a fork of [Info-Sharing](https://github.com/CyberSaiyanIT/InfoSharing/tree/master/CONTRIB/PRODUCER/scripts) 
 with an interactive menu to create, push and poll your IoC.
 
 

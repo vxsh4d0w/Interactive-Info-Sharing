@@ -5,7 +5,7 @@ with an interactive menu to create, push and poll your IoC.
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine.
+These instructions will explain you hot to make this project up and running on your local machine.
 
 ## Prerequisites
 
@@ -59,7 +59,7 @@ Please choose the option you want to run:
 ```
 ### Insert the IoC
 
-The first option requires you to single out main details as title, description author and source file of your IoC. Here below what will be displayed:
+The first option, that will run the main script [CS_build_stix](CS_build_stix.py) requires you to single out main details as title, description author and source file of your IoC. Here below what will be displayed:
 
 ```
 Insert Title Ioc:Title Example

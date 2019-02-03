@@ -80,6 +80,13 @@ The script will generate two new file that contain your IoC according Stix 1.2 a
 Writing STIX 1.2 package: package.stix
 Writing STIX 2 package: package.stix2
 ```
+
+Here an example:
+
+* *package.stix* - File[Stix 1.2 (XML)](package.stix)
+* *package.stix2* - FIle [Stix 2 (JSON)](package.stix2)
+
+
 ### Push Stix packages
 The option 2 and 3 allow to push your IoC according the taxonomy you prefer. Both option will run a shell script:
 

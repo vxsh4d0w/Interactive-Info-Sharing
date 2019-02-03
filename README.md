@@ -83,8 +83,8 @@ Writing STIX 2 package: package.stix2
 
 Here an example:
 
-* *package.stix* - File[Stix 1.2 (XML)](package.stix)
-* *package.stix2* - FIle [Stix 2 (JSON)](package.stix2)
+* *package.stix* - [File Stix 1.2 (XML)](package.stix)
+* *package.stix2* - [File Stix 2 (JSON)](package.stix2)
 
 
 ### Push Stix packages
@@ -99,6 +99,8 @@ The option 3 polls the InfoSharing server to check if your IoC have been uploade
 
 ### Poll InfoSharing
 * [Poll](poll.sh) - Script to poll the InfoSharing web server to check if your IoC have been uploaded
+
+This option doesn't require any authentication and should be runned ten minutes after pushing the IoC packages.
 
 
 

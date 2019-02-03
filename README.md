@@ -1,5 +1,5 @@
 # Interactive-Info-Sharing
-This is a fork of Info-Sharing script (https://github.com/CyberSaiyanIT/InfoSharing/tree/master/CONTRIB/PRODUCER/scripts) 
+This is a fork of [Info-Sharing] (https://github.com/CyberSaiyanIT/InfoSharing/tree/master/CONTRIB/PRODUCER/scripts) 
 with an interactive menu to create, push and poll your IoC.
 
 
@@ -81,7 +81,7 @@ Writing STIX 2 package: package.stix2
 The option 2 and 3 allow to push your IoC according the taxonomy you prefer. Both option will run a shell script:
 
 * [Stix 1.2](stix1.sh) - Script to push Ioc according Stix 1.2 Taxonomy
-* [Stix 2](stix2.sh) - Script to push Ioc according Stix 1.2 Taxonomy
+* [Stix 2](stix2.sh) - Script to push Ioc according Stix 2 Taxonomy
 
 IMPORTANT: Modify both scripts changing the password used to authenticate the session
 

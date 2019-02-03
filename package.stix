@@ -1,0 +1,482 @@
+<stix:STIX_Package 
+	xmlns:stix="http://stix.mitre.org/stix-1"
+	xmlns:AddressObj="http://cybox.mitre.org/objects#AddressObject-2"
+	xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:stixVocabs="http://stix.mitre.org/default_vocabularies-1"
+	xmlns:cybox="http://cybox.mitre.org/cybox-2"
+	xmlns:indicator="http://stix.mitre.org/Indicator-2"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:stixCommon="http://stix.mitre.org/common-1"
+	xmlns:CYBERSAIYAN="https://infosharing.cybersaiyan.it"
+	xmlns:cyboxCommon="http://cybox.mitre.org/common-2"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	 id="CYBERSAIYAN:Package-f32a410f-0740-43f3-96ec-16e0fe200e2d" version="1.2">
+    <stix:Indicators>
+        <stix:Indicator id="CYBERSAIYAN:indicator-68cb1ee8-e945-43ac-9b63-8f12a86ccbd5" timestamp="2019-02-03T21:27:53.957033+00:00" xsi:type='indicator:IndicatorType'>
+            <indicator:Title>Title Example - HASH</indicator:Title>
+            <indicator:Type xsi:type="stixVocabs:IndicatorTypeVocab-1.1">File Hash Watchlist</indicator:Type>
+        </stix:Indicator>
+        <stix:Indicator id="CYBERSAIYAN:indicator-b0b88278-b269-46ff-8d05-106b49cf2cb8" timestamp="2019-02-03T21:27:53.959096+00:00" xsi:type='indicator:IndicatorType'>
+            <indicator:Title>Title Example - DOMAIN</indicator:Title>
+            <indicator:Type xsi:type="stixVocabs:IndicatorTypeVocab-1.1">Domain Watchlist</indicator:Type>
+        </stix:Indicator>
+        <stix:Indicator id="CYBERSAIYAN:indicator-716c86a3-49d8-4d24-85af-140967c38238" timestamp="2019-02-03T21:27:53.959265+00:00" xsi:type='indicator:IndicatorType'>
+            <indicator:Title>Title Example - URL</indicator:Title>
+            <indicator:Type xsi:type="stixVocabs:IndicatorTypeVocab-1.1">URL Watchlist</indicator:Type>
+        </stix:Indicator>
+        <stix:Indicator id="CYBERSAIYAN:indicator-b8817958-c5d3-48e0-82ba-7484beb17454" timestamp="2019-02-03T21:27:53.959438+00:00" xsi:type='indicator:IndicatorType'>
+            <indicator:Title>Title Example - IP</indicator:Title>
+            <indicator:Type xsi:type="stixVocabs:IndicatorTypeVocab-1.1">IP Watchlist</indicator:Type>
+            <indicator:Observable id="CYBERSAIYAN:Observable-baa72cc6-d1ce-41e9-ae09-d9ff7e5ff5b1">
+                <cybox:Observable_Composition operator="OR">
+                    <cybox:Observable id="CYBERSAIYAN:Observable-e6f90450-81aa-4545-a609-3a6f20e98e89">
+                        <cybox:Object id="CYBERSAIYAN:Address-70bbd276-1074-4f25-8942-6edd447c946c">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType">
+                                <AddressObj:Address_Value>39.61.49.128</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </cybox:Observable>
+                    <cybox:Observable id="CYBERSAIYAN:Observable-1cb827d7-ee21-4d85-9e6f-17ef7df6b0ad">
+                        <cybox:Object id="CYBERSAIYAN:Address-0189fd94-123d-4881-9023-f852ec0f6950">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType">
+                                <AddressObj:Address_Value>187.188.148.16</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </cybox:Observable>
+                    <cybox:Observable id="CYBERSAIYAN:Observable-a6192ddc-6ab2-41ad-8e65-3aa4e482b9df">
+                        <cybox:Object id="CYBERSAIYAN:Address-0d3d4472-21b3-4f43-be14-a9a5fed15e84">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType">
+                                <AddressObj:Address_Value>148.103.9.108</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </cybox:Observable>
+                    <cybox:Observable id="CYBERSAIYAN:Observable-d367a8bd-24e7-4581-80e7-4de70a0b41ba">
+                        <cybox:Object id="CYBERSAIYAN:Address-1a6beb45-5e97-4de7-8647-aa842e4704a5">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType">
+                                <AddressObj:Address_Value>70.119.159.214</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </cybox:Observable>
+                    <cybox:Observable id="CYBERSAIYAN:Observable-2dd848da-dbe3-41fe-93ed-14f3d5c8bb7b">
+                        <cybox:Object id="CYBERSAIYAN:Address-2bad520a-760c-4e19-8723-53272a321409">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType">
+                                <AddressObj:Address_Value>67.42.71.66</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </cybox:Observable>
+                    <cybox:Observable id="CYBERSAIYAN:Observable-b85da786-a208-4362-b159-27c61422f8f4">
+                        <cybox:Object id="CYBERSAIYAN:Address-58b2e43b-f3e5-413c-89aa-9d38c96cbc0e">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType">
+                                <AddressObj:Address_Value>104.129.188.170</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </cybox:Observable>
+                    <cybox:Observable id="CYBERSAIYAN:Observable-c6691c0f-8822-42f3-a412-559409d1194b">
+                        <cybox:Object id="CYBERSAIYAN:Address-9ead1893-c6b2-41d4-976a-904a4fc7b05d">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType">
+                                <AddressObj:Address_Value>24.209.31.102</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </cybox:Observable>
+                    <cybox:Observable id="CYBERSAIYAN:Observable-98762c2d-292b-460d-b267-7f7c970ecf27">
+                        <cybox:Object id="CYBERSAIYAN:Address-c098536d-1c89-4c4c-9f49-559877b39854">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType">
+                                <AddressObj:Address_Value>70.91.215.57</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </cybox:Observable>
+                    <cybox:Observable id="CYBERSAIYAN:Observable-6d732bf8-5daf-41d7-89bd-7677316e593c">
+                        <cybox:Object id="CYBERSAIYAN:Address-c392f83c-c5bf-4f51-a5fd-7cee69a4798b">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType">
+                                <AddressObj:Address_Value>75.109.110.102</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </cybox:Observable>
+                    <cybox:Observable id="CYBERSAIYAN:Observable-b02baa0d-b1fd-43c1-995c-3c8f92ad8d13">
+                        <cybox:Object id="CYBERSAIYAN:Address-cb168818-1734-42d0-a143-ff2882f35d7e">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType">
+                                <AddressObj:Address_Value>70.100.118.224</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </cybox:Observable>
+                    <cybox:Observable id="CYBERSAIYAN:Observable-9b0fc608-be08-4cc7-98c4-eaa7e611c8b0">
+                        <cybox:Object id="CYBERSAIYAN:Address-643bf3e7-9160-476c-987f-a3bf621f49ed">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType">
+                                <AddressObj:Address_Value>115.71.233.127</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </cybox:Observable>
+                    <cybox:Observable id="CYBERSAIYAN:Observable-16ed4ac7-8e5e-4d42-a7aa-5cbbf6788156">
+                        <cybox:Object id="CYBERSAIYAN:Address-87d4a544-c3eb-4fe4-ae52-393f9e215221">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType">
+                                <AddressObj:Address_Value>153.121.36.202</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </cybox:Observable>
+                    <cybox:Observable id="CYBERSAIYAN:Observable-47ebc078-273d-4e69-9edc-c695d79e2344">
+                        <cybox:Object id="CYBERSAIYAN:Address-ba180821-a1c4-46bb-a891-8fca781f232f">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType">
+                                <AddressObj:Address_Value>108.183.160.57</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </cybox:Observable>
+                    <cybox:Observable id="CYBERSAIYAN:Observable-ae43f328-fd3e-4967-b810-e143ce4b3195">
+                        <cybox:Object id="CYBERSAIYAN:Address-4e83d039-bed4-44fd-904d-d371e2012bfb">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType">
+                                <AddressObj:Address_Value>181.61.253.171</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </cybox:Observable>
+                    <cybox:Observable id="CYBERSAIYAN:Observable-edea00d8-9855-4dd1-aa26-1c75de6553cb">
+                        <cybox:Object id="CYBERSAIYAN:Address-b0ad7ed6-8df0-4b79-bea1-55974abac4b3">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType">
+                                <AddressObj:Address_Value>69.195.223.154</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </cybox:Observable>
+                    <cybox:Observable id="CYBERSAIYAN:Observable-817f3908-a84b-43db-a995-81619fbc4e74">
+                        <cybox:Object id="CYBERSAIYAN:Address-f2b8efc8-61a9-44d2-9a30-7265d3db0aa8">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType">
+                                <AddressObj:Address_Value>72.91.227.119</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </cybox:Observable>
+                    <cybox:Observable id="CYBERSAIYAN:Observable-c7d3c8e2-520e-4540-9e3b-3afc4592d373">
+                        <cybox:Object id="CYBERSAIYAN:Address-f5a20101-9ba0-4911-aa1b-be06fa78cada">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType">
+                                <AddressObj:Address_Value>45.123.3.54</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </cybox:Observable>
+                    <cybox:Observable id="CYBERSAIYAN:Observable-36950b94-dcff-447c-9e8d-4fc9cf7b525d">
+                        <cybox:Object id="CYBERSAIYAN:Address-1067b86b-abb1-46fb-be60-db7db60c5157">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType">
+                                <AddressObj:Address_Value>206.15.68.84</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </cybox:Observable>
+                    <cybox:Observable id="CYBERSAIYAN:Observable-219e4e56-ac4c-4318-b9a8-97b5c73ba484">
+                        <cybox:Object id="CYBERSAIYAN:Address-d7232f61-6873-42ce-a904-cb96b8857a2c">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType">
+                                <AddressObj:Address_Value>69.198.17.7</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </cybox:Observable>
+                    <cybox:Observable id="CYBERSAIYAN:Observable-e51ad494-ac65-4c35-b2fa-0b0c9b2f6eb7">
+                        <cybox:Object id="CYBERSAIYAN:Address-686c69a0-7380-4506-83e1-a90fb86efaf8">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType">
+                                <AddressObj:Address_Value>178.254.31.162</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </cybox:Observable>
+                    <cybox:Observable id="CYBERSAIYAN:Observable-48b6c318-b104-45a4-bd8b-da4f8cbbd5f8">
+                        <cybox:Object id="CYBERSAIYAN:Address-8cdd167a-8377-4c82-a2ab-d66bc4fb35d8">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType">
+                                <AddressObj:Address_Value>24.209.31.102</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </cybox:Observable>
+                    <cybox:Observable id="CYBERSAIYAN:Observable-c8d0ae39-ec75-4fb9-946e-c41761ee2678">
+                        <cybox:Object id="CYBERSAIYAN:Address-a386690e-c0ba-4d4d-8f48-20eada46bf83">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType">
+                                <AddressObj:Address_Value>173.255.196.209</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </cybox:Observable>
+                    <cybox:Observable id="CYBERSAIYAN:Observable-5aac3200-ca1c-4f52-b9e4-f37af503867e">
+                        <cybox:Object id="CYBERSAIYAN:Address-30ec8b0d-3aa4-46bc-be39-a1ae6d6a7849">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType">
+                                <AddressObj:Address_Value>50.192.4.161</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </cybox:Observable>
+                    <cybox:Observable id="CYBERSAIYAN:Observable-34cbcba9-9871-40f1-8b5f-3526ea186382">
+                        <cybox:Object id="CYBERSAIYAN:Address-22355217-37bd-4d17-89f2-ee8d90d0d8f8">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType">
+                                <AddressObj:Address_Value>208.78.100.202</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </cybox:Observable>
+                    <cybox:Observable id="CYBERSAIYAN:Observable-1d29bd08-efcd-4920-ae4e-9d154fef99cc">
+                        <cybox:Object id="CYBERSAIYAN:Address-9f618e55-559d-48ef-9afb-3a64340ccebe">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType">
+                                <AddressObj:Address_Value>108.51.109.34</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </cybox:Observable>
+                    <cybox:Observable id="CYBERSAIYAN:Observable-65d5a081-f77b-4497-a0ba-6eb7dec27cd1">
+                        <cybox:Object id="CYBERSAIYAN:Address-8811e3b5-ae13-48e9-a440-abb7af62184c">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType">
+                                <AddressObj:Address_Value>45.63.17.206</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </cybox:Observable>
+                    <cybox:Observable id="CYBERSAIYAN:Observable-c8ccbac3-8abd-4683-9acf-c5d92e99fb76">
+                        <cybox:Object id="CYBERSAIYAN:Address-7e5e32ad-0b88-4682-8417-23fcf2979bd3">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType">
+                                <AddressObj:Address_Value>71.215.247.43</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </cybox:Observable>
+                    <cybox:Observable id="CYBERSAIYAN:Observable-cf19b70a-b117-4035-a64c-db6c7883e13f">
+                        <cybox:Object id="CYBERSAIYAN:Address-bbb09b64-2612-43d3-86d0-69de8748a6dc">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType">
+                                <AddressObj:Address_Value>74.195.15.29</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </cybox:Observable>
+                    <cybox:Observable id="CYBERSAIYAN:Observable-9aba2fa9-b71b-4f7e-ab59-7167015e4006">
+                        <cybox:Object id="CYBERSAIYAN:Address-098e8b2b-10c2-4128-8045-9e220a7c2e29">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType">
+                                <AddressObj:Address_Value>173.164.202.129</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </cybox:Observable>
+                    <cybox:Observable id="CYBERSAIYAN:Observable-433ef096-43a9-45dc-b3f2-04e60697ca70">
+                        <cybox:Object id="CYBERSAIYAN:Address-47206d2c-298f-4a43-b386-ff53bbc05d75">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType">
+                                <AddressObj:Address_Value>104.58.17.163</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </cybox:Observable>
+                    <cybox:Observable id="CYBERSAIYAN:Observable-fd3a23a3-c2df-445d-8a93-ca580c491ee6">
+                        <cybox:Object id="CYBERSAIYAN:Address-c2fe191e-a80d-45ac-ad66-e71f7224d42d">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType">
+                                <AddressObj:Address_Value>83.222.124.62</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </cybox:Observable>
+                    <cybox:Observable id="CYBERSAIYAN:Observable-ea468d51-db61-4727-ae57-ee008604115f">
+                        <cybox:Object id="CYBERSAIYAN:Address-b02caaff-d3b6-4d43-872d-560ac2484932">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType">
+                                <AddressObj:Address_Value>104.220.134.222</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </cybox:Observable>
+                    <cybox:Observable id="CYBERSAIYAN:Observable-e9db3f5c-d527-448e-a129-d4ba1b8c2f04">
+                        <cybox:Object id="CYBERSAIYAN:Address-82f945c4-4ee8-462d-93f8-a5cbbad40a41">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType">
+                                <AddressObj:Address_Value>69.2.176.134</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </cybox:Observable>
+                    <cybox:Observable id="CYBERSAIYAN:Observable-e93cde0f-a017-4a6c-a049-e44ac5f315f5">
+                        <cybox:Object id="CYBERSAIYAN:Address-d425eb6e-70da-4e10-9ab5-94e751ded9f2">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType">
+                                <AddressObj:Address_Value>98.174.202.154</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </cybox:Observable>
+                    <cybox:Observable id="CYBERSAIYAN:Observable-adb25f1e-4519-456e-adc4-da9ad935081e">
+                        <cybox:Object id="CYBERSAIYAN:Address-0159f6a4-eeeb-4463-99e9-e910e5e75d96">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType">
+                                <AddressObj:Address_Value>24.180.7.155</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </cybox:Observable>
+                    <cybox:Observable id="CYBERSAIYAN:Observable-22c3cb51-985c-4556-9033-fba7d5fad78e">
+                        <cybox:Object id="CYBERSAIYAN:Address-a615941d-f352-4fcb-9971-53c46ee13908">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType">
+                                <AddressObj:Address_Value>32.215.44.214</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </cybox:Observable>
+                    <cybox:Observable id="CYBERSAIYAN:Observable-d6b1a92e-6994-4f3b-a75a-810266cf737c">
+                        <cybox:Object id="CYBERSAIYAN:Address-500df992-9dc0-46cb-9e31-322c2ebbf234">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType">
+                                <AddressObj:Address_Value>62.75.187.192</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </cybox:Observable>
+                    <cybox:Observable id="CYBERSAIYAN:Observable-d78ca63f-d6ef-4700-9ac4-9c8df88cbdea">
+                        <cybox:Object id="CYBERSAIYAN:Address-48ad157f-3d26-4d7b-9c71-77f31cf44d12">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType">
+                                <AddressObj:Address_Value>66.214.30.150</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </cybox:Observable>
+                    <cybox:Observable id="CYBERSAIYAN:Observable-f0759b9a-9880-47dd-8955-e00d6b4fb24a">
+                        <cybox:Object id="CYBERSAIYAN:Address-aa247b31-adc1-4441-9bf5-aaf9f9551bcf">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType">
+                                <AddressObj:Address_Value>75.99.13.124</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </cybox:Observable>
+                    <cybox:Observable id="CYBERSAIYAN:Observable-b7f9335f-d481-4b54-a893-93eb2b81a3fd">
+                        <cybox:Object id="CYBERSAIYAN:Address-f7243057-6237-45dc-bd49-805c9ee99218">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType">
+                                <AddressObj:Address_Value>64.53.242.181</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </cybox:Observable>
+                    <cybox:Observable id="CYBERSAIYAN:Observable-7f75b3aa-89fd-478c-8b48-a01abc7ebaa9">
+                        <cybox:Object id="CYBERSAIYAN:Address-ba43a04e-44ff-48ef-beb9-62971a833178">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType">
+                                <AddressObj:Address_Value>69.2.176.134</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </cybox:Observable>
+                    <cybox:Observable id="CYBERSAIYAN:Observable-1fadaf2c-2180-40a5-b514-1a286d042b10">
+                        <cybox:Object id="CYBERSAIYAN:Address-c542ebac-cb9e-49aa-a4af-1371aff213fb">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType">
+                                <AddressObj:Address_Value>69.23.232.239</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </cybox:Observable>
+                    <cybox:Observable id="CYBERSAIYAN:Observable-5c5bcb69-7af3-4e29-a558-fb15f2c0f7ab">
+                        <cybox:Object id="CYBERSAIYAN:Address-0b582a02-3d2d-458b-b0cd-3cb5071a8b6c">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType">
+                                <AddressObj:Address_Value>50.107.8.203</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </cybox:Observable>
+                    <cybox:Observable id="CYBERSAIYAN:Observable-ce6ddc84-9da5-4868-ba51-6fc071d430c2">
+                        <cybox:Object id="CYBERSAIYAN:Address-ff660da6-6ac7-45db-8b53-f045eec36f53">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType">
+                                <AddressObj:Address_Value>178.62.37.188</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </cybox:Observable>
+                    <cybox:Observable id="CYBERSAIYAN:Observable-04526fdf-674c-4c71-a45d-75da053c5969">
+                        <cybox:Object id="CYBERSAIYAN:Address-a57511b5-463d-40e9-8b2f-a30252d1d4fd">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType">
+                                <AddressObj:Address_Value>95.141.175.240</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </cybox:Observable>
+                    <cybox:Observable id="CYBERSAIYAN:Observable-aeb23fdc-4b25-4511-b07e-b0ebadfe14fe">
+                        <cybox:Object id="CYBERSAIYAN:Address-3114b165-6ec5-4afd-9860-b2ae194c3dba">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType">
+                                <AddressObj:Address_Value>69.2.176.134</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </cybox:Observable>
+                    <cybox:Observable id="CYBERSAIYAN:Observable-dfd15eff-7730-49e0-a7db-398c5f05b072">
+                        <cybox:Object id="CYBERSAIYAN:Address-c2c76aef-d423-4216-b906-ade301ffa8a2">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType">
+                                <AddressObj:Address_Value>47.180.177.96</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </cybox:Observable>
+                    <cybox:Observable id="CYBERSAIYAN:Observable-83917746-bfd0-4988-8e17-4372927d60ee">
+                        <cybox:Object id="CYBERSAIYAN:Address-fa5cc084-c85a-4bec-9440-79b621195d11">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType">
+                                <AddressObj:Address_Value>94.76.200.114</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </cybox:Observable>
+                    <cybox:Observable id="CYBERSAIYAN:Observable-a69a525f-7a2f-4688-917b-eebc0f2f2d3e">
+                        <cybox:Object id="CYBERSAIYAN:Address-2b0bb0a4-96cd-4685-b993-40d81c3a4c72">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType">
+                                <AddressObj:Address_Value>98.142.208.27</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </cybox:Observable>
+                    <cybox:Observable id="CYBERSAIYAN:Observable-43d7f944-0dec-4fc9-a205-c8a98ae95860">
+                        <cybox:Object id="CYBERSAIYAN:Address-d9f0e1fa-9926-40ad-a5af-58ee988a5cad">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType">
+                                <AddressObj:Address_Value>211.115.111.19</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </cybox:Observable>
+                    <cybox:Observable id="CYBERSAIYAN:Observable-734abccd-50a4-4bae-a1d1-887202e225cc">
+                        <cybox:Object id="CYBERSAIYAN:Address-b2e1d26c-ac84-4d11-bd0c-d0c88245acfb">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType">
+                                <AddressObj:Address_Value>172.78.170.109</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </cybox:Observable>
+                    <cybox:Observable id="CYBERSAIYAN:Observable-77293ed9-0a2d-4de9-af68-5559ef75f602">
+                        <cybox:Object id="CYBERSAIYAN:Address-8bd9c9bd-1fa6-4da0-b22a-ffe1fcba6e0b">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType">
+                                <AddressObj:Address_Value>198.74.58.47</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </cybox:Observable>
+                    <cybox:Observable id="CYBERSAIYAN:Observable-29d5def6-dc63-4958-af97-bdc948a17932">
+                        <cybox:Object id="CYBERSAIYAN:Address-16cdb7c3-762f-4579-8136-f9610a705878">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType">
+                                <AddressObj:Address_Value>69.2.176.134</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </cybox:Observable>
+                    <cybox:Observable id="CYBERSAIYAN:Observable-78977cfc-d9cb-48fb-bd52-81a5e22034cb">
+                        <cybox:Object id="CYBERSAIYAN:Address-9b38da6d-ed38-4165-a7e9-b56b387e3235">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType">
+                                <AddressObj:Address_Value>96.56.159.107</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </cybox:Observable>
+                    <cybox:Observable id="CYBERSAIYAN:Observable-7037575e-b2f3-4fc3-977e-740fb0c05660">
+                        <cybox:Object id="CYBERSAIYAN:Address-f6c137b8-08b1-47a9-a2f2-977d139673c3">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType">
+                                <AddressObj:Address_Value>62.75.191.231</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </cybox:Observable>
+                    <cybox:Observable id="CYBERSAIYAN:Observable-520c7a46-71c1-4725-a7eb-a8ba14ceab95">
+                        <cybox:Object id="CYBERSAIYAN:Address-3ea68e23-707b-4640-a473-5c7504ab26fb">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType">
+                                <AddressObj:Address_Value>72.28.237.18</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </cybox:Observable>
+                    <cybox:Observable id="CYBERSAIYAN:Observable-6e9e45df-1b95-4cac-9065-ddd90af43ece">
+                        <cybox:Object id="CYBERSAIYAN:Address-3e484d56-cd8f-49cc-9753-6e7a12ba37fc">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType">
+                                <AddressObj:Address_Value>5.230.147.179</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </cybox:Observable>
+                    <cybox:Observable id="CYBERSAIYAN:Observable-222f7162-2c48-4524-9886-3e4db057d401">
+                        <cybox:Object id="CYBERSAIYAN:Address-9bd01d44-823d-42ab-a6be-e95e29baf90d">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType">
+                                <AddressObj:Address_Value>173.162.110.1</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </cybox:Observable>
+                    <cybox:Observable id="CYBERSAIYAN:Observable-2e7a3ef7-9666-49df-a70e-f773b10b65f1">
+                        <cybox:Object id="CYBERSAIYAN:Address-a1142f27-895f-4016-9714-9fe896b90a9b">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType">
+                                <AddressObj:Address_Value>173.67.158.100</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </cybox:Observable>
+                    <cybox:Observable id="CYBERSAIYAN:Observable-c2f0adfd-1d5f-47bf-8376-edb11d13e7e9">
+                        <cybox:Object id="CYBERSAIYAN:Address-19bef229-a024-46ec-b9de-b9b1556f8aa7">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType">
+                                <AddressObj:Address_Value>67.205.149.117</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </cybox:Observable>
+                    <cybox:Observable id="CYBERSAIYAN:Observable-fd1a9c00-99eb-439b-b82b-e14bf8946ac6">
+                        <cybox:Object id="CYBERSAIYAN:Address-54d1d3ee-1c91-40a5-ad9b-4b3374a9cb23">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType">
+                                <AddressObj:Address_Value>217.13.106.160</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </cybox:Observable>
+                    <cybox:Observable id="CYBERSAIYAN:Observable-17330fee-c682-4abe-b821-e991eec20aad">
+                        <cybox:Object id="CYBERSAIYAN:Address-9a3d685a-5af3-4da5-a616-51010b14144c">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType">
+                                <AddressObj:Address_Value>47.33.113.20</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </cybox:Observable>
+                    <cybox:Observable id="CYBERSAIYAN:Observable-d2c05861-766b-48fc-bc8f-4dedcaaafeac">
+                        <cybox:Object id="CYBERSAIYAN:Address-5fe1de07-29a4-4e42-b67b-f869870e62bc">
+                            <cybox:Properties xsi:type="AddressObj:AddressObjectType">
+                                <AddressObj:Address_Value>50.31.0.160</AddressObj:Address_Value>
+                            </cybox:Properties>
+                        </cybox:Object>
+                    </cybox:Observable>
+                </cybox:Observable_Composition>
+            </indicator:Observable>
+        </stix:Indicator>
+        <stix:Indicator id="CYBERSAIYAN:indicator-a9314144-dea3-469c-99af-5bce2f59ed0d" timestamp="2019-02-03T21:27:53.959601+00:00" xsi:type='indicator:IndicatorType'>
+            <indicator:Title>Title Example - EMAIL</indicator:Title>
+            <indicator:Type xsi:type="stixVocabs:IndicatorTypeVocab-1.1">Malicious E-mail</indicator:Type>
+        </stix:Indicator>
+    </stix:Indicators>
+</stix:STIX_Package>

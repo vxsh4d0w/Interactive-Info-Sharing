@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--3da9eaf5-de55-463b-a93c-070ba331c262",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "campaign",
+            "id": "campaign--5ca0f330-72c0-4936-891f-ca14537f4420",
+            "created": "2019-02-03T22:27:53.000Z",
+            "modified": "2019-02-03T22:27:53.000Z",
+            "name": "Title Example",
+            "description": "Test Script",
+            "first_seen": "2019-02-03T22:27:53Z",
+            "objective": "TBD"
+        },
+        {
+            "type": "marking-definition",
+            "id": "marking-definition--a99ca9e3-237a-474d-a40d-f6b7ef0ddff0",
+            "created": "2019-02-03T21:27:53.960Z",
+            "definition_type": "tlp",
+            "definition": {
+                "tlp": "WHITE"
+            }
+        },
+        {
+            "type": "indicator",
+            "id": "indicator--5ca565e1-1bf8-4555-b283-77f0bcffd403",
+            "created": "2019-02-03T22:27:53.000Z",
+            "modified": "2019-02-03T22:27:53.000Z",
+            "name": "Title Example - IPS",
+            "description": "Test Script",
+            "pattern": "[ipv4-addr:value = '39.61.49.128'] OR [ipv4-addr:value = '187.188.148.16'] OR [ipv4-addr:value = '148.103.9.108'] OR [ipv4-addr:value = '70.119.159.214'] OR [ipv4-addr:value = '67.42.71.66'] OR [ipv4-addr:value = '104.129.188.170'] OR [ipv4-addr:value = '24.209.31.102'] OR [ipv4-addr:value = '70.91.215.57'] OR [ipv4-addr:value = '75.109.110.102'] OR [ipv4-addr:value = '70.100.118.224'] OR [ipv4-addr:value = '115.71.233.127'] OR [ipv4-addr:value = '153.121.36.202'] OR [ipv4-addr:value = '108.183.160.57'] OR [ipv4-addr:value = '181.61.253.171'] OR [ipv4-addr:value = '69.195.223.154'] OR [ipv4-addr:value = '72.91.227.119'] OR [ipv4-addr:value = '45.123.3.54'] OR [ipv4-addr:value = '206.15.68.84'] OR [ipv4-addr:value = '69.198.17.7'] OR [ipv4-addr:value = '178.254.31.162'] OR [ipv4-addr:value = '24.209.31.102'] OR [ipv4-addr:value = '173.255.196.209'] OR [ipv4-addr:value = '50.192.4.161'] OR [ipv4-addr:value = '208.78.100.202'] OR [ipv4-addr:value = '108.51.109.34'] OR [ipv4-addr:value = '45.63.17.206'] OR [ipv4-addr:value = '71.215.247.43'] OR [ipv4-addr:value = '74.195.15.29'] OR [ipv4-addr:value = '173.164.202.129'] OR [ipv4-addr:value = '104.58.17.163'] OR [ipv4-addr:value = '83.222.124.62'] OR [ipv4-addr:value = '104.220.134.222'] OR [ipv4-addr:value = '69.2.176.134'] OR [ipv4-addr:value = '98.174.202.154'] OR [ipv4-addr:value = '24.180.7.155'] OR [ipv4-addr:value = '32.215.44.214'] OR [ipv4-addr:value = '62.75.187.192'] OR [ipv4-addr:value = '66.214.30.150'] OR [ipv4-addr:value = '75.99.13.124'] OR [ipv4-addr:value = '64.53.242.181'] OR [ipv4-addr:value = '69.2.176.134'] OR [ipv4-addr:value = '69.23.232.239'] OR [ipv4-addr:value = '50.107.8.203'] OR [ipv4-addr:value = '178.62.37.188'] OR [ipv4-addr:value = '95.141.175.240'] OR [ipv4-addr:value = '69.2.176.134'] OR [ipv4-addr:value = '47.180.177.96'] OR [ipv4-addr:value = '94.76.200.114'] OR [ipv4-addr:value = '98.142.208.27'] OR [ipv4-addr:value = '211.115.111.19'] OR [ipv4-addr:value = '172.78.170.109'] OR [ipv4-addr:value = '198.74.58.47'] OR [ipv4-addr:value = '69.2.176.134'] OR [ipv4-addr:value = '96.56.159.107'] OR [ipv4-addr:value = '62.75.191.231'] OR [ipv4-addr:value = '72.28.237.18'] OR [ipv4-addr:value = '5.230.147.179'] OR [ipv4-addr:value = '173.162.110.1'] OR [ipv4-addr:value = '173.67.158.100'] OR [ipv4-addr:value = '67.205.149.117'] OR [ipv4-addr:value = '217.13.106.160'] OR [ipv4-addr:value = '47.33.113.20'] OR [ipv4-addr:value = '50.31.0.160']",
+            "valid_from": "2019-02-03T21:27:53.982334Z",
+            "labels": [
+                "malicious-activity"
+            ],
+            "object_marking_refs": [
+                "marking-definition--a99ca9e3-237a-474d-a40d-f6b7ef0ddff0"
+            ]
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--80547ff4-0559-4431-b1c4-ab71fbe64dcd",
+            "created": "2019-02-03T21:27:54.029Z",
+            "modified": "2019-02-03T21:27:54.029Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--5ca565e1-1bf8-4555-b283-77f0bcffd403",
+            "target_ref": "campaign--5ca0f330-72c0-4936-891f-ca14537f4420"
+        }
+    ]
+}
+
